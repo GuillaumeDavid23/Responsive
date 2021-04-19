@@ -1,0 +1,22 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.fond{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/coworking-paysage.jpg);
+    background-size: cover;
+}
+
+
+@media (max-width:600px){
+    .fond{
+        height: 100%;
+        width: 100%;
+        background-image: url(../img/coworking-portrait.jpg);
+        background-size: cover;
+    }
+}
