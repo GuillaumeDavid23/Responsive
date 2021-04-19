@@ -1,62 +1,62 @@
-
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0;
 }
-.fond{
+
+.fond {
     height: 100%;
     width: 100%;
 
 }
-.container{
+
+.container {
     display: flex;
 }
 
-.zone1{
+.zone1 {
     background-color: aquamarine;
 }
 
-.zone2{
+.zone2 {
     background-color: bisque;
 }
 
 
 
-@media (orientation: portrait){
-    .fond{
+@media (orientation: portrait) {
+    .fond {
         background-image: url(../img/coworking-portrait.jpg);
         background-size: cover;
+        &
     }
 }
 
-@media (orientation: landscape){
-    .fond{
+@media (orientation: landscape) {
+    .fond {
         background-image: url(../img/coworking-paysage.jpg);
         background-size: cover;
 
     }
 }
 
-@media (min-width:1024px){
-    .fond{
+@media (min-width:1024px) {
+    .fond {
         height: 50%;
     }
 }
 
-@media (max-width:1024px){
-    .container{
+@media (max-width:1024px) {
+    .container {
         flex-direction: column;
     }
 }
 
 
-@media (min-width:576px){
-    footer ul{
+@media (min-width:576px) {
+    footer ul {
         display: flex;
         justify-content: space-around;
     }
 }
-
-
-
