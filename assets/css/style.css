@@ -14,9 +14,13 @@ html,body{
 
 @media (max-width:600px){
     .fond{
-        height: 100%;
-        width: 100%;
         background-image: url(../img/coworking-portrait.jpg);
         background-size: cover;
+    }
+}
+
+@media (min-width:1024px){
+    .fond{
+        height: 50%;
     }
 }
