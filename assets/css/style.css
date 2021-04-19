@@ -9,6 +9,19 @@ html,body{
     width: 100%;
 
 }
+.container{
+    display: flex;
+}
+
+.zone1{
+    background-color: aquamarine;
+}
+
+.zone2{
+    background-color: bisque;
+}
+
+
 
 @media (orientation: portrait){
     .fond{
@@ -45,18 +58,5 @@ html,body{
     }
 }
 
-
-
-.container{
-    display: flex;
-}
-
-.zone1{
-    background-color: aquamarine;
-}
-
-.zone2{
-    background-color: bisque;
-}
 
 
