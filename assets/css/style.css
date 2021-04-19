@@ -29,7 +29,6 @@ body {
     .fond {
         background-image: url(../img/coworking-portrait.jpg);
         background-size: cover;
-        &
     }
 }
 
