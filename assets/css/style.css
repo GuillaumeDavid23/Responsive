@@ -25,6 +25,24 @@ html,body{
     }
 }
 
+.container{
+    display: flex;
+}
+
+.zone1{
+    background-color: aquamarine;
+}
+
+.zone2{
+    background-color: bisque;
+}
+
+@media (max-width:1024px){
+    .container{
+        flex-direction: column;
+    }
+}
+
 @media (min-width:1024px){
     .fond{
         height: 50%;
