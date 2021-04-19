@@ -13,6 +13,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .zone1 {
@@ -46,9 +47,9 @@ body {
     }
 }
 
-@media (max-width:1024px) {
+@media (min-width:1024px) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
